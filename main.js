@@ -48,7 +48,7 @@ const product = {
     grade = "D";
   } else {
     grade = "F";
-  }
+  };
   
   console.log(grade);
   
