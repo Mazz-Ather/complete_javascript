@@ -54,44 +54,69 @@ countvowels("mazz ather");
 
 //same but in arror function
 
-let countVowelsArrow = (str) =>{
-    count = 0;
-    for (const iterator of str) {
-        if (iterator === "a" ||iterator === "e" ||iterator === "i" ||iterator === "o" ||iterator === "u" ){
-            count++;
-        }
+let countVowelsArrow = (str) => {
+  count = 0;
+  for (const iterator of str) {
+    if (
+      iterator === "a" ||
+      iterator === "e" ||
+      iterator === "i" ||
+      iterator === "o" ||
+      iterator === "u"
+    ) {
+      count++;
     }
-console.log(count)
-}
+  }
+  console.log(count);
+};
 countVowelsArrow("mazz ather");
 
 //for each
-let array =["a","b","c","d"]
+let array = ["a", "b", "c", "d"];
 
-array.forEach((val)=>{
+array.forEach((val) => {
   console.log(val);
-})
+});
 //3 parameters
-array.forEach((val,idx,array)=>{
-console.log(val,idx,array);
-})
+array.forEach((val, idx, array) => {
+  console.log(val, idx, array);
+});
 
-let square = [2,4,5,6,7,8,9];
-square.forEach((val)=>{
+let square = [2, 4, 5, 6, 7, 8, 9];
+square.forEach((val) => {
   console.log(val ** 2);
-})
+});
 
 //map
-square.map((val)=>{
+square.map((val) => {
   console.log(val * val);
-})
+});
 console.log(square);
 
 //filter
-let num =[2,3,4,5,6]
-let even = num.filter((val)=>{
- return val % 2 == 0;
-})
+let num = [2, 3, 4, 5, 6];
+let even = num.filter((val) => {
+  return val % 2 == 0;
+});
 console.log(even);
 
 // reduce ////it returns single value
+let red = [1, 2, 3, 4];
+let output = red.reduce((prev, curr) => {
+  return prev + curr; // to print bigget p>c?p:c
+});
+console.log(output);
+//practice
+let marks = [2, 3, 56, 78, 99, 87, 90, 95, 32, 12, 67];
+let toppers = marks.filter((marks) => {
+  return marks >= 90;
+});
+console.log(toppers);
+
+// practice
+ let n = prompt("enter a number");
+const k = [];
+for (i = 1; i <= k; i++) {
+  k[i-1] = i
+}
+console.log(k);
