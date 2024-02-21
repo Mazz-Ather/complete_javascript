@@ -1,0 +1,1 @@
+# self practice of JAVASCRIPT 
