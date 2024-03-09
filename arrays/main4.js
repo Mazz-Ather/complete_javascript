@@ -20,7 +20,7 @@ let items = [100,200,300,400,500];
 console.log(items);
 for (let i = 0 ; i <items.length; i++){
   let  offer = items[i] / 10;
-    items[i] -= offer;
+     items[i] -= offer;
 }
 console.log(items);
 
@@ -36,7 +36,7 @@ console.log("deleted item ",deleted);
 console.log(heroes.concat(friend,myName));
 
 let SLICE = heroes.slice(0,2)
-// console.log(SLICE);
+ console.log(SLICE);
 
 let h = [1,2,3,4,5,6,7];
 h.splice(2,0,102)

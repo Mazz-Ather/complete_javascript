@@ -1,4 +1,4 @@
-//**third practice question of if else statement */
+//** practice question of if else statement */
 
 let num = prompt("Enter a Number");
 
@@ -8,7 +8,7 @@ if (num % 5 === 0) {
   console.log("try again");
 }
 
-//?fourth practice question of if else-if else statement
+//? practice question of if else-if else statement
 // written a code which can give grades to students according to their scores
 
 let score = prompt("Enter Your Number 0-100");

@@ -5,13 +5,13 @@
 
 let sum = 0;
 for (let i = 1; i < 5; i++) {
-  sum = sum + 1;
+  sum = sum + i;//10
 }
 console.log("sum is ", sum);
 
 //           *         while loop
 
-let j = 5;
+let j = 1;
 while (j <= 5) {
   console.log("maaz-ather");
   j++;
@@ -44,7 +44,7 @@ const facebookProfile = {
   type: "Private",
 };
 for (let key in facebookProfile) {
-  console.log("key =", key, facebookProfile[key]);
+  console.log("key =", key, "value = ",facebookProfile[key]);
 }
   
 

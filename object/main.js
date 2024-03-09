@@ -1,4 +1,4 @@
-//!first practice question of object
+//?first practice question of object
 
 const product = {
   Name: "Ball Pen",
@@ -9,7 +9,7 @@ const product = {
 };
 console.log(product);
 
-/**  second practice question of object */
+//? second practice question of object 
 
 const instaProfile = {
   userName: "maaz_ather_",
@@ -19,3 +19,20 @@ const instaProfile = {
   type: "Private",
 };
 console.log(instaProfile);
+
+//! add something in obj
+const obj ={
+  name : "khan",
+  class : 12
+}
+obj["laptop"] = "true"
+console.log(obj);
+
+
+
+
+
+
+
+
+
